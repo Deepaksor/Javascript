@@ -32,4 +32,14 @@ var numFromBoolean = Number(boolVal); // false is 0, true is 1
 console.log("Boolean to Number: " + numFromBoolean + ", Type: " + typeof numFromBoolean);
 
 // Note: JavaScript also performs implicit type conversion (type coercion) in certain situations, 
-// but it's generally recommended to use explicit conversion methods for clarity and to avoid unexpected results.   
+// but it's generally recommended to use explicit conversion methods for clarity and to avoid unexpected results.
+
+//conversion to integer
+// "39"=> string
+// 39=> number
+// "545fh"=> NaN
+
+// conversion to boolean 
+// ""=> false
+// "432"=> true
+//  1=> true
